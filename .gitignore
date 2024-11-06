@@ -1,3 +1,7 @@
+#secret
+config_secret.py
+#virtual environment
+venv/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
