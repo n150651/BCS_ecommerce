@@ -1,3 +1,5 @@
+##system
+.vscode/
 #secret
 config_secret.py
 #virtual environment
