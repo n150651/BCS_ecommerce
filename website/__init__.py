@@ -4,8 +4,15 @@ from config_secret import SECRET_KEY
 from os import makedirs, path
 
 from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy.orm import DeclarativeBase
 
-db = SQLAlchemy()
+
+class Base(DeclarativeBase):
+    pass
+
+
+db = SQLAlchemy(model_class=Base)
+
 DB_NAME = "database.db"
 
 
